@@ -1,0 +1,49 @@
+#Hello, thank you very much for downloading the plugin, this is my first
+#plugin coded by me, Anyelo120 if you have any suggestions or report any
+#bugs you can join our discord: https://discord.gg/tny6zvh4EC
+
+#Modifies the name of the plugin you point to.
+plugin_name: '&8[&6&lRoleplay&b&lMessages&8] '
+
+#Modifies the permissions of the plugin you point to
+permission:
+  admin_permission: rm.admin
+  amazon_permission: rm.amazon
+  anon_permission: rm.anon
+  911_permission: rm.emergency
+  instagram_permission: rm.instagram
+  tinder_permission: rm.tinder
+  twt_permission: rm.twt
+  wsp_permission: rm.wsp
+  rm_permission: rm.reload
+  ooc_permission: rm.ooc
+  rnt_permission: rm.environment
+  taxi_permission: rm.taxi
+
+#Modify the messages as you wish.
+#variables:
+#these are new variables that you can use to customize the chat.
+#%player% - used to point to the user who sent the message.
+#%message% - used to display the message sent by the player who executed the command
+Messages:
+#Modify the input and output messages, so that your wsp chat looks much better
+  wsp:
+    messager: '&8[&a&lWSP&8] &f+%player% &a-> &7%message%.'
+    reciever: '&7[&e!&7] &8[&a&lWSP&8] &f+%player% &a<-> &7%message%.'
+  tinder: '&7[&d&lTINDER&7] &f@%player% &d-> &7%message%.'
+  admin: '&6[&e&lADMIN&6] &6%player% &e-[ &b&l%message%. &e]-'
+  twt: '&b&lTWT &f@%player% &7|-> &b%message%.'
+  instagram: '&7[&6&lINSTAGRAM&7] &f@%player% &7&l>&7> &b%message%.'
+  anon: '&7[&c&lANON&7] &8>> &7%message%.'
+  911: '&c[&4&l911&c] &7%player% &f+> &c%message%.'
+  amazon: '&8[&c&lAMAZON&8] &f@%player% &7&l-&7> &7%message%.'
+  ooc: '&7#&8OOC &7%player% &f> &7%message%.'
+  ent: '>&6&l[&eEnvironment&6&l]< | &6%player% &7> &f[&e%message%.&f]'
+  taxi: '&e&l| &e[&7TAXI&e] &f+%player% &e!&e> &7%message%.'
+  
+#Modifies the plugin's messages.
+Lang:
+  Error_alert: '¡&cFailed to send, you must write something to send or have permissions to do this.!'
+  Console_alert: '&cThis command cannot be executed from the console'
+  No_online: '&c¡Player not online!'
+  Command_no_exist: '&cThat command was not found'
