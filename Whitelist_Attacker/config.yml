@@ -1,0 +1,16 @@
+plugin_name: "&7[&a&lWhitelist&6&lAttacker&7] &f"
+
+Permission:
+  Verify: wa.verify
+
+Messages:
+  ConsoleError: "&cYou can't run this from the console."
+  ErrorArgs: "&cCommand usage error: &e/verify NICKNAME"
+  alreadyVerified: "&c¡The player &7%player% &cwas already verified!"
+  verifiedSuccessfully: "&a¡Player &7%player% &averified successfully!"
+  errorPvPDamager: 
+  - "&8> &c¡You can't do that, you're not verified!"
+  - "&7This security helps people to disturb the server"
+  - "&7If you want to be on the whitelist contact an admin."
+  errorPvPTarget: 
+  - " &8> &cYou can't do that, that player is unverified!"

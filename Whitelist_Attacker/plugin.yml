@@ -1,0 +1,9 @@
+main: anyelo.central.Main
+version: 1.0.0-Standard
+name: WhitelistAttacker
+api-version: 1.13
+author: Anyelo120
+
+commands:
+  verify:
+    description: Command /Verify
